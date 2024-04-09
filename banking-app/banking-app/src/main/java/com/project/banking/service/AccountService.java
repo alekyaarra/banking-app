@@ -1,8 +1,8 @@
 package com.project.banking.service;
 
-import com.project.banking.entity.Account;
+import com.project.banking.dto.AccountDto;
 
 public interface AccountService {
-	Account createAccount(Account account);
+	AccountDto createAccount(AccountDto accountDto);
 
 }
