@@ -23,9 +23,9 @@ public class Account {
 	@Column(name = "account_holder_name")
 	private String accountHolderName;
 	private double balance;
-	public Account(Object id2, Object accountHolderName2, Object balance2) {
-		// TODO Auto-generated constructor stub
-	}
+//	public Account(Object id2, Object accountHolderName2, Object balance2) {
+//		// TODO Auto-generated constructor stub
+//	}
 	public Account(Long id2, String accountHolderName2, double balance2) {
 		// TODO Auto-generated constructor stub
 	}
